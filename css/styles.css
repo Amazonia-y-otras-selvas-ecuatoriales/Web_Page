@@ -10212,10 +10212,11 @@ header.masthead .masthead-heading {
   background-color: #fff;
 }
 .portfolio-item .portfolio-caption .portfolio-caption-heading {
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
+  text-align: center;
 }
 .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
