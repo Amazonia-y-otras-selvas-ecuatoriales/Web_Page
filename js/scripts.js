@@ -1,4 +1,4 @@
-    (function ($) {
+        (function ($) {
     "use strict"; // Start of use strict
 
     // Smooth scrolling using jQuery easing
@@ -50,13 +50,26 @@
     $(window).scroll(navbarCollapse);
 })(jQuery); // End of use strict
 
-var vid = document.getElementById("Video");
+var vid26 = document.getElementById("Video26");
+var vid30 = document.getElementById("Video30");
 function pauseVid() {
-    vid.pause();
-    vid.currentTime = 0;
+    vid26.pause();
+    vid26.currentTime = 0;
+    vid30.pause();
+    vid30.currentTime = 0;
 }
-var aud = document.getElementById("Audio");
+var aud16 = document.getElementById("Audio16");
+var aud27 = document.getElementById("Audio27");
+var aud28 = document.getElementById("Audio28");
+var aud32 = document.getElementById("Audio32");
+
 function pauseAudio() {
-    aud.pause();
-    aud.currentTime = 0;
+    aud16.pause();
+    aud16.currentTime = 0;
+    aud27.pause();
+    aud27.currentTime = 0;
+    aud28.pause();
+    aud28.currentTime = 0;
+    aud32.pause();
+    aud32.currentTime = 0;
 }
