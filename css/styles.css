@@ -10515,7 +10515,17 @@ section#contact form#contactForm :-ms-input-placeholder {
     z-index: 0;
   }
   .about-heading .about-heading-content {
-    margin-top: -5rem;
+    margin-top: -10rem;
+    position: relative;
+    z-index: 1;
+  }
+  .about-heading .about-heading-content1 {
+    margin-top: 7rem;
+    position: relative;
+    z-index: 1;
+  }
+  .about-heading .about-heading-content2 {
+    margin-top: 2rem;
     position: relative;
     z-index: 1;
   }
